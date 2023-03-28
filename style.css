@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@500;700;900&family=Big+Shoulders+Display:wght@300;800;900&family=Epilogue:wght@400;700&family=IBM+Plex+Sans:wght@400;700&family=Outfit:wght@300;800;900&family=Red+Hat+Display:wght@500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree SemiBold';
+    font-style: normal;
+}
+header{
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
