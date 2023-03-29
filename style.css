@@ -3,11 +3,336 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Bai Jamjuree SemiBold';
+    font-family: 'Bai Jamjuree';
     font-style: normal;
 }
 header{
+    text-align: center;
+    height: 670px;
+    position: relative;
+}
+.background{
     background-image: url(./images/bg-header-mobile.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover ;
+    width: 100%;
+    height: 363px;
+}
+#logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 123px;
+    
+}
+button{
+    font-weight: 600;
+}
+h1, h2{
+    font-weight: 600;
+
+}
+header h1{
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.521739px;
+    color: #4C545C;
+    max-width: 311px;
+    margin: 0 auto;
+}
+p{
+    font-weight:400 ;
+}
+header p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 16px;
+}
+.text{
+    padding: 0 32px;
+    margin-top: -51px;
+}
+.buttons{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.ios{
+    width: 311px;
+    height: 56px;
+    background:#26BBA4 ;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+}
+.ios:hover{
+    background: #5cccba;
+}
+.mac{
+    width: 311px;
+    height: 56px;
+    background:#6174FF ;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+}
+.mac:hover{
+    background: #8996fe;
+}
+.first{
+    padding: 0 32px;
+    margin-top: 160px;
+}
+.first h2{
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.456522px;
+    color: #4C545C;
+    max-width: 311px;
+    margin:0 auto;
+}
+.first p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 16px;
+}
+#monitor{
+    width: 63.46%;
+    height: 238px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.list{
+    text-align: center;
+}
+.headh4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+}
+.para{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+}
+.monitor{
+    margin-top: 65px;
+    
+}
+.list{
+    margin-top: 8px;
+    padding: 0 32px;
+}
+.headh4{
+    margin-top: 48px;
+}
+.access{
+    margin-top:186px ;
+}
+.access h2{
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.456522px;
+    color: #4C545C;
+}
+.access p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    padding: 0 32px;
+    margin-top: 16px;
+}
+#devices{
+    width: 82.93%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 64px;
+}
+.supercharger{
+    margin-top: 130px;
+}
+.supercharger h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.456522px;
+    color: #4C545C;
+}
+.supercharger p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+}
+.list-two{
+    margin-top: 90px;
+    padding: 0 32px;
+
+}
+.plain{
+    text-align: center;
+}
+.plain h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+    margin-top: 44px;
+}
+.plain p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 18px;
+}
+
+.blacklist{
+    text-align: center;
+}
+.blacklist h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+    margin-top: 44px;
+}
+.blacklist p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 18px;
+}
+.sneak{
+    text-align: center;
+}
+.sneak h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+    margin-top: 44px;
+}
+.sneak p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 18px;
+}
+#text, #eye{
+    margin-top: 56px;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 74px;
+    
+}
+.logo{
+    width: 37.06%;
+    height: auto; 
+    display: block;
+    margin: 57px auto 0;
+}
+.clipboard{
+    margin-top: 170px;
+    padding:  0 32px;
+}
+.clipboard h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.456522px;
+    color: #4C545C;
+}
+.clipboard p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 16px;
+}
+#logo-footer{
+    width: 55px;
+    height: 55px;
+    display: block;
+    margin: 222px auto 0;
+}
+h5{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.135px;
+    color: #4C545C;
+    margin-top: 20px;
+}
+.faq{
+    margin-top: 40px;
+}
+#fb{
+    margin-right: 20px;
+}
+#tw{
+    margin-right: 20px;
+}
+.social{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 51px;
 }
